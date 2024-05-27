@@ -89,7 +89,7 @@ async function loadConfig() {
         global.xyro = "yqiBQF86F4";
 
         /** Number  **/
-        global.nomorbot = "6281779570422";
+        global.nomorbot = "212629268898";
         global.nomorown = "6282195322106";
         global.namebot = " ᴛᴀyʟᴏʀ-ʙᴏᴛ あ⁩ ";
         global.nameown = "「 𝑾𝒖𝒅𝒚𝒔𝒐𝒇𝒕 」";
