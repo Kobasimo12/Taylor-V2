@@ -407,7 +407,7 @@ if (pairingCode && !conn.authState.creds.registered) {
     console.log(chalk.cyan('╭──────────────────────────────────────···'));
     console.log(chalk.redBright(`📨 ${'Please type your WhatsApp number'}:`));
     console.log(chalk.cyan('├──────────────────────────────────────···'));
-    let phoneNumber = await askQuestion(`   ${chalk.bold.cyan('- Number')}: `);
+    let phoneNumber = await askQuestion(`   ${chalk.bold.cyan(212629268898')}: `);
     console.log(chalk.cyan('╰──────────────────────────────────────···'));
     phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
     if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
@@ -417,7 +417,7 @@ if (pairingCode && !conn.authState.creds.registered) {
         console.log(chalk.cyan('╭──────────────────────────────────────···'));
         console.log(chalk.redBright(`📨 ${'Please type your WhatsApp number'}:`));
         console.log(chalk.cyan('├──────────────────────────────────────···'));
-        phoneNumber = await askQuestion(`   ${chalk.bold.cyan('- Number')}: `);
+        phoneNumber = await askQuestion(`   ${chalk.bold.cyan('212629268898')}: `);
         console.log(chalk.cyan('╰──────────────────────────────────────···'));
         phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
     }
@@ -441,7 +441,7 @@ if (useMobile && !conn.authState.creds.registered) {
         console.log(chalk.cyan('╭──────────────────────────────────────···'));
         console.log(chalk.redBright(`📨 ${'Please type your WhatsApp number'}:`));
         console.log(chalk.cyan('├──────────────────────────────────────···'));
-        let phoneNumber = await askQuestion(`   ${chalk.bold.cyan('- Number')}: `);
+        let phoneNumber = await askQuestion(`   ${chalk.bold.cyan('212629268898')}: `);
         console.log(chalk.cyan('╰──────────────────────────────────────···'));
         phoneNumber = phoneNumber.replace(/[^0-9]/g, '');
         if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
